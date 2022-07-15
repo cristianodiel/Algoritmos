@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1657909087 source:c:\users\alunos\documents\cristiano\algoritmo e base de dados\lista3\lista03_exercicio14\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
