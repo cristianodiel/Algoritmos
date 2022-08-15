@@ -1,8 +1,8 @@
 #include <stdio.h>
-/* Este programa lê uma sequência de tamanho indefinido de
-números do teclado e calcula a média aritmética dos mesmos. A
-leitura é interrompida quando se digita um número negativo. O
-numero negativo não deve entrar no cálculo*/
+/* Este programa lï¿½ uma sequï¿½ncia de tamanho indefinido de
+nï¿½meros do teclado e calcula a mï¿½dia aritmï¿½tica dos mesmos. A
+leitura ï¿½ interrompida quando se digita um nï¿½mero negativo. O
+numero negativo nï¿½o deve entrar no cï¿½lculo. falta fazer este exercicio*/
 int main(void){
 double acumulado,media,lido;
 int contador;
@@ -14,7 +14,7 @@ contador++;
 total = (total + lido)/contador;
 }while (lido >= 0);
 media = total;
-printf(“%f”,media);
+printf(ï¿½%fï¿½,media);
 return 0;
 }
 
