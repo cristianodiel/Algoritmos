@@ -13,13 +13,21 @@ int main(void)
     {
         printf ("Insira um numero para ser somado, ou um numero negativo para encerrar a soma:\n");
         scanf("%lf",&lido);
-        if (lido>=0)//adicionada condicao
+        if (lido>0)//adicionada condicao
         {
             contador++;
             acumulado = (acumulado + lido);//trocando total por acumulado. tirando a divisao pelo contador. efetuar este passo depois
         }
-    }while (lido >= 0);
-    media = acumulado/contador;//trocando total por acumulado. só agora dividindo pelo contador
+    }
+    while (lido >0);
+    if (contador>0)
+    {
+        media = acumulado/contador;//trocando total por acumulado. só agora dividindo pelo contador.
+    }
+    else
+    {
+        media=0;
+    }
 
     printf("Media= %lf",media);
     return 0;
