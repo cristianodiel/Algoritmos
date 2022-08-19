@@ -4,7 +4,7 @@ componentes deste vetor, armazenando o resultado em outro vetor. Os conjuntos te
 */
 #include <stdio.h>
 #include <stdlib.h>
-#define TAM 3
+#define TAM 10
 
 int main()
 {
