@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
-1657910145 source:c:\users\alunos\documents\cristiano\algoritmo e base de dados\lista3\lista03_exercicio15\main.c
+1658167063 source:c:\users\alunos\desktop\cristiano\algoritmos\lista03_exercicio15\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1658167063 source:c:\users\alunos\documents\cristiano\lista03\lista03_exercicio15\main.c
 	<stdio.h>
 	<stdlib.h>
 

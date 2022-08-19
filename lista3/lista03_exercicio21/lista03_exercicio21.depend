@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1658427403 source:c:\users\alunos\documents\cristiano\algoritmos\lista03_exercicio21\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1658428550 source:c:\users\alunos\documents\cristiano\lista03\lista03_exercicio21\main.c
+	<stdio.h>
+	<stdlib.h>
+

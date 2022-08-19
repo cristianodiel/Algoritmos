@@ -5,7 +5,7 @@ pelo usuário. */
 
 int main()
 {
-    int n,i;
+    int n,i=1;
     int aux=1;
     printf("Informe um numero para que seja calculado seu fatorial.\n");
     scanf("%i",&n);
@@ -15,6 +15,7 @@ int main()
     //}
     while (i<=n){
         aux = aux * i;
+        i = i + 1;
 
     }
 

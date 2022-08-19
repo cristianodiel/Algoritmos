@@ -24,9 +24,9 @@ int main()
         i++;
 
     }
-    printf("Dentre os %i numeros que foram informadas,\n", n);
-    printf("existem %i entre 0 e 100, ", aux1);
-    printf("%i entre 101 e 200 e ", aux2);
+    printf("Dentre os %i numeros que foram informadas, existem\n", n);
+    printf("%i entre 0 e 100,\n", aux1);
+    printf("%i entre 101 e 200 e \n", aux2);
     printf("%i maiores do que 200.\n", aux3);
     return 0;
 }

@@ -12,6 +12,7 @@ int main()
 
     do{
         soma = soma + a;
+        printf("soma = %d\n",soma);
         printf("informe um numero \n");
         scanf("%i",&a);
 
