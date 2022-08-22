@@ -12,13 +12,15 @@ int achar_posicao_menor(int vetor[], int tamVetor);
 
 int main()
 {
-    printf("Hello world!\n");
+    int vet[TAM];
     //ler vetor
-
+    lerVetor(vet,TAM);
 
     //mostrar a posicao do maior valor
+    printf("Posicao do maior valor no vetor: %d\n", achar_posicao_maior(vet, TAM));
 
     //mostrar a posicao do menor valor
+    printf("Posicao do menor valor no vetor: %d\n", achar_posicao_menor(vet, TAM));
 
     return 0;
 }
