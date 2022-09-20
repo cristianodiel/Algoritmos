@@ -46,15 +46,15 @@ int estaContido (int nomeVetor[],int tamVetor, int numeroChecado){
 //funcao para comparar valores
 void excluirRepetidos (int nomeVetor[],int tamVetor){
     int i, k, vetAux[tamVetor];
-    printf("Vetor sem elementos repetidos: ");
     for (i=0;i<tamVetor;i++){
         if(!estaContido(vetAux,k,nomeVetor[i])){
-
             vetAux[k]=nomeVetor[i];
             k++;
-        printf("%d ", nomeVetor[i]);
         }
-        printf("%d ", vetAux[k]);
+    }
+    printf("Vetor sem elementos repetidos: ");
+    for (i=0;i<k;i++){
+        printf("%d ",vetAux[i]);
     }
 }
 
